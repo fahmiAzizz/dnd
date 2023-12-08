@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right{
+    width: 350px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed gray;
+}
+
+.list{
+    background: pink;   
+    height: 60px;
+    margin: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
